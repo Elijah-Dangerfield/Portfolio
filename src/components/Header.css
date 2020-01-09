@@ -17,4 +17,41 @@
 .HeaderGroup a {
   color: white;
   font-weight: 700;
+  background: transparent;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderGroup a:hover {
+  transform: scale(1.2);
+}
+.HeaderGroup button {
+  padding: 8px 20px;
+  font-size: 20px;
+  background: #56ccf2;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Header button:hover {
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {
+  .Header {
+    padding: 15px 0;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeart(4, auto);
+  }
+
+  .Header a:nth-child(4) {
+    display: none;
+  }
 }
