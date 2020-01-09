@@ -76,5 +76,5 @@ const WaveTop = styled.div`
 const WaveBottom = styled.div`
   position: absolute;
   width: 100%;
-  bottom: -6px;
+  bottom: 0px;
 `
