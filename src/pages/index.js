@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -26,7 +27,7 @@ const IndexPage = () => (
           <img src={require("../images/logo-swift.png")} width="50"></img>
         </div>
         <svg
-          width="2560"
+          width="100%"
           height="172"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +49,31 @@ const IndexPage = () => (
             />
           </path>
         </svg>
+      </div>
+      <div className="Cards">
+        <h2>11 courses, more coming</h2>
+        <div className="CardGroup">
+          <Card
+            title="React for designers"
+            text="12 sections"
+            image={require("../images/wallpaper.jpg")}
+          />
+          <Card
+            title="Design Sytem"
+            text="8 sections"
+            image={require("../images/wallpaper2.jpg")}
+          />
+          <Card
+            title="Sound Design"
+            text="9 sections"
+            image={require("../images/wallpaper3.jpg")}
+          />
+          <Card
+            title="AR Kit"
+            text="11 sections"
+            image={require("../images/wallpaper4.jpg")}
+          />
+        </div>
       </div>
     </div>
   </Layout>
