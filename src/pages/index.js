@@ -15,26 +15,24 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>
-          Learn to <br />
-          design and code React apps
+         Elijah Dangerfield
         </h1>
         <p>
-          Complete courses about the best tools and design systems. Prototype
-          and build apps with React and Swift
+          Enthusiastic computer scientist with mobile and web experience. 
         </p>
-        <Link to="/video">Watch the video</Link>
-        <div className="Logos">
+        <Link to="/video">Github</Link>
+        {/* <div className="Logos">
           <img src={require("../images/logo-sketch.png")} width="50"></img>
           <img src={require("../images/logo-figma.png")} width="50"></img>
           <img src={require("../images/logo-studio.png")} width="50"></img>
           <img src={require("../images/logo-framer.png")} width="50"></img>
           <img src={require("../images/logo-react.png")} width="50"></img>
           <img src={require("../images/logo-swift.png")} width="50"></img>
-        </div>
+        </div> */}
         <Wave />
       </div>
       <div className="Cards">
-        <h2>11 courses, more coming</h2>
+        <h2>About</h2>
         <div className="CardGroup">
           <Card
             title="React for designers"
