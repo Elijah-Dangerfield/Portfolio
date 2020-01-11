@@ -45,7 +45,7 @@ a {
   animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Hero p {
+.HeroGroup p {
   font-size: 30px;
   line-height: 1.5;
   opacity: 0;
@@ -118,7 +118,6 @@ a {
   justify-items: center;
 }
 
-
 .AboutSection p {
   color: black;
   margin: 0 300px 200px;
@@ -133,7 +132,6 @@ a {
   .Cards h2 {
     font-size: 30px;
   }
-
 }
 
 @media (max-width: 1060px) {
