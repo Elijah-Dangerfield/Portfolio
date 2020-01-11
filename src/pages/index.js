@@ -20,19 +20,29 @@ const IndexPage = () => (
         <p>
           Enthusiastic computer scientist with mobile and web experience. 
         </p>
-        <Link to="/video">Github</Link>
-        {/* <div className="Logos">
-          <img src={require("../images/logo-sketch.png")} width="50"></img>
-          <img src={require("../images/logo-figma.png")} width="50"></img>
-          <img src={require("../images/logo-studio.png")} width="50"></img>
-          <img src={require("../images/logo-framer.png")} width="50"></img>
-          <img src={require("../images/logo-react.png")} width="50"></img>
-          <img src={require("../images/logo-swift.png")} width="50"></img>
-        </div> */}
+        <img
+              src={require("../images/eli-cartoon.png")}
+              width="125"
+            ></img>
         <Wave />
       </div>
-      <div className="Cards">
-        <h2>About</h2>
+      <div className="AboutSection">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet odio iaculis l
+orem sodales ullamcorper. Donec convallis euismod diam ut hendrerit. Nam maximus enim in augue
+ pulvinar placerat. Vivamus condimentum ullamcorper lacus sed dictum. Integer enim purus, bibendum
+ a felis vitae, accumsan fermentum lorem. Phasellus congue nibh quis lacinia rhoncus. Sed vel varius lorem, 
+
+ut vestibulum tellus. Phasellus sed tortor ligula. Duis fermentum, ante quis tempus pretium, dolor ex elementum 
+arcu, ut iaculis velit felis vitae mauris. Donec volutpat aliquet nulla, quis sodales neque ultrices ut. Donec 
+metus orci, porttitor id justo vitae, cursus volutpat lorem. Vestibulum mollis a leo ut rhoncus. Sed in finibus 
+est, id tristique sapien. Sed hendrerit velit sit amet libero rhoncus condimentum. Aenean porta eleifend 
+
+enim. In posuere risus eu enim cursus ullamcorper.       </p>
+      </div>
+      <div className="ProjectsSection">
+           <div className="Cards">
+           <h2>Projects</h2>
         <div className="CardGroup">
           <Card
             title="React for designers"
@@ -56,19 +66,6 @@ const IndexPage = () => (
           />
         </div>
       </div>
-      <Section
-        image={require("../images/wallpaper2.jpg")}
-        logo={require("../images/logo-react.png")}
-        title="React for designers"
-        text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
-      />
-      <div className="SectionsGroup">
-        <SectionCaption>12 sections - 6 hours</SectionCaption>
-        <SectionCellGroup>
-          {staticdata.cells.map(cell => (
-            <Cell title={cell.title} image={cell.image} />
-          ))}
-        </SectionCellGroup>
       </div>
     </div>
   </Layout>

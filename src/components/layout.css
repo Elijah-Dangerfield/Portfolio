@@ -13,6 +13,14 @@ a {
   font-weight: 600;
 }
 
+.Hero h2 {
+  margin: 300px 20px 100px 20px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  z-index: 100;
+}
+
 .Hero {
   background: url("../images/wallpaper3.jpg");
   position: relative;
@@ -110,12 +118,11 @@ a {
   justify-items: center;
 }
 
-.Cards h2 {
-  margin: 300px 20px 100px 20px;
-  font-size: 50px;
-  text-align: center;
-  font-weight: 700;
-  z-index: 100;
+
+.AboutSection p {
+  color: black;
+  margin: 0 300px 200px;
+  font-size: 20px;
 }
 
 @media (max-width: 640px) {
@@ -126,11 +133,18 @@ a {
   .Cards h2 {
     font-size: 30px;
   }
+
 }
 
 @media (max-width: 1060px) {
   .CardGroup {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .AboutSection p {
+    color: black;
+    margin: 0 100px 200px;
+    font-size: 20px;
   }
 }
 
