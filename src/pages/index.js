@@ -10,6 +10,7 @@ import staticdata from "../../staticdata.json"
 import Cell from "../components/Cell"
 import styled from "styled-components"
 import ExperienceCell from "../components/ExperienceCell"
+import Contact from "../components/Contact"
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +21,7 @@ const IndexPage = () => (
         <img src={require("../images/eli-cartoon.png")} width='125'></img>
         <Wave />
       </div>
-      <div className='AboutSection'>
+      <div className='AboutSection' id={"about"}>
         <h2>About</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -39,7 +40,7 @@ const IndexPage = () => (
           cursus ullamcorper.{" "}
         </p>
       </div>
-      <div className='Cards'>
+      <div className='Cards' id={"projects"}>
         <h2>Projects</h2>
         <div className='CardGroup'>
           <Card
@@ -88,7 +89,7 @@ const IndexPage = () => (
           />
         </div>
       </div>
-      <div className='ExperienceSection'>
+      <div id={"experience"} className='ExperienceSection'>
         <h2>Experience</h2>
         <ExperienceCell
           image={require("../images/takl-logo.png")}
@@ -133,11 +134,35 @@ const IndexPage = () => (
           quis tempus pretium, dolor ex elementum arcu, ut iaculis velit felis'
         />
       </div>
+
+      <div id={"contact"}>
+        <h2>Contact</h2>
+        <ContactSection>
+          <Contact
+            logo={require("../images/logo-github2.png")}
+            title='Github'
+          />
+          <Contact
+            logo={require("../images/logo-linkedin.png")}
+            title='LinkedIn'
+          />
+          <Contact logo={require("../images/logo-email.png")} title='Email' />
+        </ContactSection>
+      </div>
     </div>
   </Layout>
 )
 
 export default IndexPage
+
+const ContactSection = styled.div`
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+`
 
 const SectionCaption = styled.p`
   font-weight: 600;
