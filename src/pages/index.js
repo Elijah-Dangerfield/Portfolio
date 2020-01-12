@@ -163,8 +163,8 @@ export default IndexPage
 
 const ContactSection = styled.div`
   margin: 0 auto;
-  width: 50%;
   display: grid;
+  width: 80%;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;

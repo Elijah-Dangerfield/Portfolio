@@ -21,7 +21,7 @@ const Container = styled.a`
     transform: scale(1.2);
   }
 
-  @media (max-width: 640px) ) {
+  @media (max-width: 640px) {
     width: 82px;
   }
 `
@@ -31,7 +31,7 @@ const Logo = styled.img`
   margin: 10px auto 0 auto;
 
   @media (max-width: 640px) {
-    width: 60px;
+    width: 50px;
   }
 `
 
