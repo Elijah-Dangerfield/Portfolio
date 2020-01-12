@@ -17,13 +17,17 @@ const ExperienceCell = props => (
 export default ExperienceCell
 
 const Container = styled.div`
-  width: 80%;
+  width: 70%;
   margin: 40px auto;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `
 const TopWrapper = styled.div`
   display: grid;
@@ -36,7 +40,7 @@ const Time = styled.p`
   padding: 20px;
   border-bottom-left-radius: 20px;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 `
 

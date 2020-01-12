@@ -90,42 +90,21 @@ const IndexPage = () => (
           company='Takl'
           position='Mobile Developer'
           time='2019 - Current'
-          details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
-          euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
-          placerat. Vivamus condimentum ullamcorper lacus sed dictum. Integer
-          enim purus, bibendum a felis vitae, accumsan fermentum lorem.
-          Phasellus congue nibh quis lacinia rhoncus. Sed vel varius lorem, ut
-          vestibulum tellus. Phasellus sed tortor ligula. Duis fermentum, ante
-          quis tempus pretium, dolor ex elementum arcu, ut iaculis velit felis'
+          details='At Takl Home services my title is Android developer. I contribute to maintaining and updating the current Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contribute to the React web app while working on a redesign of the mobile app using Rect Native. '
         />
         <ExperienceCell
           image={require("../images/mtsu-logo.png")}
           company='Middle Tennessee State University'
           position='Mobile Developer'
           time='2018 - Current'
-          details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
-          euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
-          placerat. Vivamus condimentum ullamcorper lacus sed dictum. Integer
-          enim purus, bibendum a felis vitae, accumsan fermentum lorem.
-          Phasellus congue nibh quis lacinia rhoncus. Sed vel varius lorem, ut
-          vestibulum tellus. Phasellus sed tortor ligula. Duis fermentum, ante
-          quis tempus pretium, dolor ex elementum arcu, ut iaculis velit felis'
+          details='At MTSU I develop for the Android and iOS platforms. I contribute to a team of 9 developer on maintaining and improving the MTSU mobile application for the use for the student body (30k +). I work on refactoring both the Android and iOS code bases to follow MVVM architecture and reactive programming using RX Swift and Live Data. '
         />
         <ExperienceCell
           image={require("../images/ubs-logo.png")}
           company='UBS Financial'
           position='IT Intern'
           time='Summer 2019'
-          details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
-          euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
-          placerat. Vivamus condimentum ullamcorper lacus sed dictum. Integer
-          enim purus, bibendum a felis vitae, accumsan fermentum lorem.
-          Phasellus congue nibh quis lacinia rhoncus. Sed vel varius lorem, ut
-          vestibulum tellus. Phasellus sed tortor ligula. Duis fermentum, ante
-          quis tempus pretium, dolor ex elementum arcu, ut iaculis velit felis'
+          details='At UBS Financial I worked as an IT Intern working on the big data team. I contributed to a data analytics platform by creating a Scala-Python integration API to work with Apache Spark. I got to work with additional data analytics tools through implementing an AWS data quality assurance tool as P.O.C using Databricks. As a side project during the internship I worked on a team of interns assessing popular data loss prevention techniques and implementing secondary solutions to a preexisting system '
         />
       </div>
 
