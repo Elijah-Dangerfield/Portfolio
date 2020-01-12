@@ -3,7 +3,10 @@ import styled from "styled-components"
 
 const ExperienceCell = props => (
   <Container>
-    <Logo src={props.image}></Logo>
+    <TopWrapper>
+      <Logo src={props.image}></Logo>
+      <Time>{props.time}</Time>
+    </TopWrapper>
     <DetailsWrapper>
       <Company>{props.company}</Company>
       <Position>{props.position}</Position>
@@ -21,6 +24,20 @@ const Container = styled.div`
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+`
+const TopWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr auto;
+`
+
+const Time = styled.p`
+  color: rgba(255, 255, 255);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
 `
 
 const Logo = styled.img`

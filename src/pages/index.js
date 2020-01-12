@@ -94,6 +94,7 @@ const IndexPage = () => (
           image={require("../images/takl-logo.png")}
           company='Takl'
           position='Mobile Developer'
+          time='2019 - Current'
           details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
           euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
@@ -107,6 +108,7 @@ const IndexPage = () => (
           image={require("../images/mtsu-logo.png")}
           company='Middle Tennessee State University'
           position='Mobile Developer'
+          time='2018 - Current'
           details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
           euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
@@ -120,6 +122,7 @@ const IndexPage = () => (
           image={require("../images/ubs-logo.png")}
           company='UBS Financial'
           position='IT Intern'
+          time='Summer 2019'
           details='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
           euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
