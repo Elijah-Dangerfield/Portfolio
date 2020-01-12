@@ -28,6 +28,11 @@ const Container = styled.div`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: 640px) {
+    width: 90%;
+    margin: 40px auto;
+  }
 `
 const TopWrapper = styled.div`
   display: grid;
