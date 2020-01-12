@@ -18,26 +18,20 @@ const IndexPage = () => (
       <div className='HeroGroup'>
         <h1>Elijah Dangerfield</h1>
         <p>Enthusiastic computer scientist with mobile and web experience.</p>
-        <img src={require("../images/eli-cartoon.png")} width='125'></img>
+        <img src={require("../images/eli-logo.png")} width='350px'></img>
         <Wave />
       </div>
       <div className='AboutSection' id={"about"}>
         <h2>About</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          imperdiet odio iaculis l orem sodales ullamcorper. Donec convallis
-          euismod diam ut hendrerit. Nam maximus enim in augue pulvinar
-          placerat. Vivamus condimentum ullamcorper lacus sed dictum. Integer
-          enim purus, bibendum a felis vitae, accumsan fermentum lorem.
-          Phasellus congue nibh quis lacinia rhoncus. Sed vel varius lorem, ut
-          vestibulum tellus. Phasellus sed tortor ligula. Duis fermentum, ante
-          quis tempus pretium, dolor ex elementum arcu, ut iaculis velit felis
-          vitae mauris. Donec volutpat aliquet nulla, quis sodales neque
-          ultrices ut. Donec metus orci, porttitor id justo vitae, cursus
-          volutpat lorem. Vestibulum mollis a leo ut rhoncus. Sed in finibus
-          est, id tristique sapien. Sed hendrerit velit sit amet libero rhoncus
-          condimentum. Aenean porta eleifend enim. In posuere risus eu enim
-          cursus ullamcorper.{" "}
+          Hi there! My name is Elijah Dangerfield. I am a computer scientist
+          with a passion for learning and creating. I am currently obtaining my
+          bachelors degree in computer science at Middle Tennessee State
+          University while getting a minor in mathematics and biology. The
+          majority of my computer science work has been in Android development
+          while more recently branching into iOS development and React/React
+          native (hence the website). I love what I do and I hope its obvious in
+          my projects below :)
         </p>
       </div>
       <div className='Cards' id={"projects"}>

@@ -14,7 +14,7 @@ a {
 }
 
 .Hero h2 {
-  margin: 300px 20px 100px 20px;
+  margin: 100px 20px 100px 20px;
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -102,8 +102,9 @@ a {
 
 .AboutSection p {
   color: black;
-  margin: 0 100px 200px;
+  margin: 0 200px 200px;
   font-size: 20px;
+  line-height: 2;
 }
 
 @media (max-width: 640px) {
@@ -120,7 +121,7 @@ a {
     font-size: 16px;
   }
   .AboutSection h2 {
-    margin-top: 600px;
+    margin-top: 200px;
   }
 }
 
