@@ -48,12 +48,20 @@ const Company = styled.h3`
   color: "black";
   margin: 0;
   font-size: 30px;
+
+  @media (max-width: 640px) {
+    font-size: 22px;
+  }
 `
 const Position = styled.h3`
   color: "black";
   font-size: 28px;
   margin-top: 10px;
   font-weight: 200;
+
+  @media (max-width: 640px) {
+    font-size: 18px;
+  }
 `
 
 const DetailsWrapper = styled.div`
@@ -63,4 +71,8 @@ const Details = styled.p`
   color: rgba(0, 0, 0, 0.8);
   margin: 0;
   font-size: 20px;
+
+  @media (max-width: 640px) {
+    font-size: 16px;
+  }
 `

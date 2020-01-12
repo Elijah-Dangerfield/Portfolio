@@ -20,11 +20,19 @@ const Container = styled.a`
   &:hover {
     transform: scale(1.2);
   }
+
+  @media (max-width: 640px) ) {
+    width: 82px;
+  }
 `
 
 const Logo = styled.img`
   width: 80px;
   margin: 10px auto 0 auto;
+
+  @media (max-width: 640px) {
+    width: 60px;
+  }
 `
 
 const Title = styled.p`

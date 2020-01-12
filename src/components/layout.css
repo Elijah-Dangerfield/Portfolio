@@ -37,7 +37,7 @@ a {
 }
 
 .Hero h1 {
-  margin: 40px;
+  margin: 20px;
   color: white;
   font-size: 60px;
   opacity: 0;
@@ -62,8 +62,8 @@ a {
     font-size: 40px;
   }
 
-  .Hero p {
-    font-size: 24px;
+  .Hero h2 {
+    font-size: 36px;
   }
 }
 
@@ -102,7 +102,7 @@ a {
 
 .AboutSection p {
   color: black;
-  margin: 0 300px 200px;
+  margin: 0 100px 200px;
   font-size: 20px;
 }
 
@@ -114,17 +114,19 @@ a {
   .Cards h2 {
     font-size: 30px;
   }
+
+  .AboutSection p {
+    margin: 0 80px 200px;
+    font-size: 16px;
+  }
+  .AboutSection h2 {
+    margin-top: 400px;
+  }
 }
 
 @media (max-width: 1060px) {
   .CardGroup {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .AboutSection p {
-    color: black;
-    margin: 0 100px 200px;
-    font-size: 20px;
   }
 }
 
