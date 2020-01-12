@@ -53,24 +53,6 @@ a {
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Hero a {
-  font-size: 17px;
-  font-weight: 600;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 9px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
-  box-shadow: black;
-}
-
-.Hero a:hover {
-  background: white;
-  color: black;
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
 @media (max-width: 640px) {
   .HeroGroup {
     padding: 100px 20px;

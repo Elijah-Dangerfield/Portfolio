@@ -43,24 +43,48 @@ const IndexPage = () => (
         <h2>Projects</h2>
         <div className='CardGroup'>
           <Card
-            title='React for designers'
-            text='12 sections'
+            title='Spyfall'
+            link='https://github.com/Elijah-Dangerfield/Spyfall'
+            text='Android Application'
             image={require("../images/wallpaper.jpg")}
           />
           <Card
-            title='Design Sytem'
-            text='8 sections'
+            title='Would You Rather'
+            link='https://github.com/Elijah-Dangerfield/Would-You-Rather/blob/master/README.md'
+            text='Android & iOS Application'
             image={require("../images/wallpaper2.jpg")}
           />
           <Card
-            title='Sound Design'
-            text='9 sections'
+            title='A Star Search'
+            text='AI Project'
+            link='https://github.com/Elijah-Dangerfield/A-star-search'
             image={require("../images/wallpaper3.jpg")}
           />
           <Card
-            title='AR Kit'
-            text='11 sections'
+            title='Decision Tree'
+            text='ML Project'
+            link='https://github.com/Elijah-Dangerfield/Decision-Tree'
             image={require("../images/wallpaper4.jpg")}
+          />
+
+          <Card
+            title='Kind'
+            text='Collaborative Android Project'
+            link='https://github.com/Elijah-Dangerfield/Kind'
+            image={require("../images/wallpaper2.jpg")}
+          />
+          <Card
+            title='Barbras Book'
+            text='Android Project'
+            link='https://github.com/Elijah-Dangerfield/BarbrasBook'
+            image={require("../images/wallpaper2.jpg")}
+          />
+
+          <Card
+            title='SentimentAnalysis'
+            text='ML Project'
+            link='https://github.com/Elijah-Dangerfield/SentimentAnalysis'
+            image={require("../images/wallpaper.jpg")}
           />
         </div>
       </div>
