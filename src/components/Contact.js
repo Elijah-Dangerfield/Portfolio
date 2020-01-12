@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Contact = props => (
-  <Container>
+  <Container target='_blank' href={props.link}>
     <Logo src={props.logo}></Logo>
     <Title>{props.title}</Title>
   </Container>
@@ -10,11 +10,16 @@ const Contact = props => (
 
 export default Contact
 
-const Container = styled.div`
+const Container = styled.a`
   position: relative;
   width: 128px;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
 `
 
 const Logo = styled.img`
@@ -24,5 +29,6 @@ const Logo = styled.img`
 
 const Title = styled.p`
   font-weight: 500;
+  color: black;
   text-align: center;
 `

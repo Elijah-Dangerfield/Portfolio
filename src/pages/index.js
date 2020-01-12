@@ -140,13 +140,19 @@ const IndexPage = () => (
         <ContactSection>
           <Contact
             logo={require("../images/logo-github2.png")}
+            link='https://github.com/Elijah-Dangerfield'
             title='Github'
           />
           <Contact
             logo={require("../images/logo-linkedin.png")}
+            link='https://www.linkedin.com/in/elijahdangerfield/'
             title='LinkedIn'
           />
-          <Contact logo={require("../images/logo-email.png")} title='Email' />
+          <Contact
+            logo={require("../images/logo-email.png")}
+            link='mailto: elijahdangerfield111@gmail.com'
+            title='Email'
+          />
         </ContactSection>
       </div>
     </div>
