@@ -14,14 +14,14 @@ import Contact from "../components/Contact"
 
 const IndexPage = () => (
   <Layout>
-    <div className='Hero'>
-      <div className='HeroGroup'>
+    <div className="Hero">
+      <div className="HeroGroup">
         <h1>Elijah Dangerfield</h1>
         <p>Enthusiastic computer scientist with mobile and web experience.</p>
-        <img src={require("../images/eli-logo.png")} width='350px'></img>
+        <img src={require("../images/eli-logo.png")} width="350px"></img>
         <Wave />
       </div>
-      <div className='AboutSection' id={"about"}>
+      <div className="AboutSection" id={"about"}>
         <h2>About</h2>
         <p>
           Hi there! My name is Elijah Dangerfield. I am a computer scientist
@@ -34,77 +34,77 @@ const IndexPage = () => (
           my projects below :)
         </p>
       </div>
-      <div className='Cards' id={"projects"}>
+      <div className="Cards" id={"projects"}>
         <h2>Projects</h2>
-        <div className='CardGroup'>
+        <div className="CardGroup">
           <Card
-            title='Spyfall'
-            link='https://github.com/Elijah-Dangerfield/Spyfall'
-            text='Android Application'
+            title="Spyfall"
+            link="https://github.com/Elijah-Dangerfield/Spyfall"
+            text="Android Application"
             image={require("../images/wallpaper.jpg")}
           />
           <Card
-            title='Would You Rather'
-            link='https://github.com/Elijah-Dangerfield/Would-You-Rather/blob/master/README.md'
-            text='Android & iOS Application'
+            title="Would You Rather"
+            link="https://github.com/Elijah-Dangerfield/Would-You-Rather/blob/master/README.md"
+            text="Android & iOS Application"
             image={require("../images/wallpaper2.jpg")}
           />
           <Card
-            title='A Star Search'
-            text='AI Project'
-            link='https://github.com/Elijah-Dangerfield/A-star-search'
+            title="A Star Search"
+            text="AI Project"
+            link="https://github.com/Elijah-Dangerfield/A-star-search"
             image={require("../images/wallpaper3.jpg")}
           />
           <Card
-            title='Decision Tree'
-            text='ML Project'
-            link='https://github.com/Elijah-Dangerfield/Decision-Tree'
+            title="Decision Tree"
+            text="ML Project"
+            link="https://github.com/Elijah-Dangerfield/Decision-Tree"
             image={require("../images/wallpaper4.jpg")}
           />
 
           <Card
-            title='Kind'
-            text='Collaborative Android Project'
-            link='https://github.com/Elijah-Dangerfield/Kind'
+            title="Kind"
+            text="Collaborative Android Project"
+            link="https://github.com/Elijah-Dangerfield/Kind"
             image={require("../images/wallpaper2.jpg")}
           />
           <Card
-            title='Barbras Book'
-            text='Android Project'
-            link='https://github.com/Elijah-Dangerfield/BarbrasBook'
+            title="Barbras Book"
+            text="Android Project"
+            link="https://github.com/Elijah-Dangerfield/BarbrasBook"
             image={require("../images/wallpaper2.jpg")}
           />
 
           <Card
-            title='SentimentAnalysis'
-            text='ML Project'
-            link='https://github.com/Elijah-Dangerfield/SentimentAnalysis'
+            title="SentimentAnalysis"
+            text="ML Project"
+            link="https://github.com/Elijah-Dangerfield/SentimentAnalysis"
             image={require("../images/wallpaper.jpg")}
           />
         </div>
       </div>
-      <div id={"experience"} className='ExperienceSection'>
+      <div id={"experience"} className="ExperienceSection">
         <h2>Experience</h2>
         <ExperienceCell
           image={require("../images/takl-logo.png")}
-          company='Takl'
-          position='Mobile Developer'
-          time='2019 - Current'
-          details='At Takl Home services my title is Android developer. I contribute to maintaining and updating the current Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contribute to the React web app while working on a redesign of the mobile app using Rect Native. '
+          company="Takl"
+          position="Mobile Developer"
+          time="2019 - Current"
+          details="At Takl Home services my title is Android developer. I contribute to maintaining and updating the current Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contribute to the React web app while working on a redesign of the mobile app using React Native. "
         />
         <ExperienceCell
           image={require("../images/mtsu-logo.png")}
-          company='Middle Tennessee State University'
-          position='Mobile Developer'
-          time='2018 - Current'
-          details='At MTSU I develop for the Android and iOS platforms. I contribute to a team of 9 developer on maintaining and improving the MTSU mobile application for the use for the student body (30k +). I work on refactoring both the Android and iOS code bases to follow MVVM architecture and reactive programming using RX Swift and Live Data. '
+          company="Middle Tennessee State University"
+          position="Mobile Developer"
+          time="2018 - Current"
+          details="At MTSU I develop for the Android and iOS platforms. I contribute to a team of 9 developer on maintaining and improving the MTSU mobile application for the use for the student body (30k +). I work on refactoring both the Android and iOS code bases to follow MVVM architecture and reactive programming using RX Swift and Live Data. "
         />
         <ExperienceCell
           image={require("../images/ubs-logo.png")}
-          company='UBS Financial'
-          position='IT Intern'
-          time='Summer 2019'
-          details='At UBS Financial I worked as an IT Intern working on the big data team. I contributed to a data analytics platform by creating a Scala-Python integration API to work with Apache Spark. I got to work with additional data analytics tools through implementing an AWS data quality assurance tool as P.O.C using Databricks. As a side project during the internship I worked on a team of interns assessing popular data loss prevention techniques and implementing secondary solutions to a preexisting system '
+          company="UBS Financial"
+          position="IT Intern"
+          time="Summer 2019"
+          details="At UBS Financial I worked as an IT Intern working on the big data team. I contributed to a data analytics platform by creating a Scala-Python integration API to work with Apache Spark. I got to work with additional data analytics tools through implementing an AWS data quality assurance tool as P.O.C using Databricks. As a side project during the internship I worked on a team of interns assessing popular data loss prevention techniques and implementing secondary solutions to a preexisting system "
         />
       </div>
 
@@ -113,18 +113,18 @@ const IndexPage = () => (
         <ContactSection>
           <Contact
             logo={require("../images/logo-github2.png")}
-            link='https://github.com/Elijah-Dangerfield'
-            title='Github'
+            link="https://github.com/Elijah-Dangerfield"
+            title="Github"
           />
           <Contact
             logo={require("../images/logo-linkedin.png")}
-            link='https://www.linkedin.com/in/elijahdangerfield/'
-            title='LinkedIn'
+            link="https://www.linkedin.com/in/elijahdangerfield/"
+            title="LinkedIn"
           />
           <Contact
             logo={require("../images/logo-email.png")}
-            link='mailto: elijahdangerfield111@gmail.com'
-            title='Email'
+            link="mailto: elijahdangerfield111@gmail.com"
+            title="Email"
           />
         </ContactSection>
       </div>
