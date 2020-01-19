@@ -17,7 +17,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Elijah Dangerfield</h1>
-        <p>Enthusiastic computer scientist with mobile and web experience.</p>
+        <p>Enthusiastic mobile developer and computer scientist</p>
         <img src={require("../images/eli-logo.png")} width="350px"></img>
         <Wave />
       </div>
@@ -80,6 +80,13 @@ const IndexPage = () => (
             text="ML Project"
             link="https://github.com/Elijah-Dangerfield/SentimentAnalysis"
             image={require("../images/wallpaper.jpg")}
+          />
+
+          <Card
+            title="Portfolio"
+            text="React Project"
+            link="https://github.com/Elijah-Dangerfield/Portfolio"
+            image={require("../images/wallpaper4.jpg")}
           />
         </div>
       </div>
