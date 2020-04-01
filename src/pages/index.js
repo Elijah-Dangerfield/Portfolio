@@ -18,7 +18,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Elijah Dangerfield</h1>
         <p>Enthusiastic mobile developer and computer scientist</p>
-        <img src={require("../images/eli-logo.png")} width="350px"></img>
+        <img src={require("../images/stay_home_eli.png")} width="350px"></img>
         <Wave />
       </div>
       <div className="AboutSection" id={"about"}>
@@ -88,6 +88,13 @@ const IndexPage = () => (
             link="https://github.com/Elijah-Dangerfield/Portfolio"
             image={require("../images/wallpaper4.jpg")}
           />
+
+          <Card
+            title="Git Job"
+            text="Android Project"
+            link="https://github.com/Elijah-Dangerfield/GitJob"
+            image={require("../images/wallpaper4.jpg")}
+          />
         </div>
       </div>
       <div id={"experience"} className="ExperienceSection">
@@ -96,8 +103,8 @@ const IndexPage = () => (
           image={require("../images/takl-logo.png")}
           company="Takl"
           position="Mobile Developer"
-          time="2019 - Current"
-          details="At Takl Home services my title is Android developer. I contribute to maintaining and updating the current Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contribute to the React web app while working on a redesign of the mobile app using React Native. "
+          time="2019 - 2020"
+          details="At Takl Home services my primary role was Android development. I contributed to maintaining and updating the Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contributed to the React Takl+ web app creating multiple client facing feactures on a scrum workflow using Typescript. "
         />
         <ExperienceCell
           image={require("../images/mtsu-logo.png")}
