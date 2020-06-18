@@ -22,7 +22,7 @@ a {
 }
 
 .Hero {
-  background: url("../images/wallpaper3.jpg");
+  background: url("../images/eli-pic.jpg");
   position: relative;
   height: 960px;
   background-size: cover;
@@ -30,14 +30,13 @@ a {
 }
 
 .HeroGroup {
-  margin: 0 auto; /* *top right bottom left*/
+  margin: 0 0 400px 100px; /* *top right bottom left*/
   max-width: 500px;
   padding: 150px 50px;
   text-align: center;
 }
 
 .Hero h1 {
-  margin: 20px;
   color: white;
   font-size: 60px;
   opacity: 0;
@@ -102,9 +101,14 @@ a {
 
 .AboutSection p {
   color: black;
-  margin: 0 200px 200px;
+  margin: 0 300px 300px;
   font-size: 20px;
   line-height: 2;
+}
+
+.AboutSection h2 {
+  color: black;
+  margin: 400px 0 0 0;
 }
 
 @media (max-width: 640px) {

@@ -18,7 +18,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Elijah Dangerfield</h1>
         <p>Enthusiastic mobile developer and computer scientist</p>
-        <img src={require("../images/stay_home_eli.png")} width="350px"></img>
+        {/* <img src={require("../images/stay_home_eli.png")} width="350px"></img> */}
         <Wave />
       </div>
       <div className="AboutSection" id={"about"}>
@@ -26,7 +26,7 @@ const IndexPage = () => (
         <p>
           Hi there! My name is Elijah Dangerfield. I am a computer scientist
           with a passion for learning and creating. I have a bachelors degree in
-          computer science with a minor in mathematics. The majority of my
+          computer science and a minor in mathematics. The majority of my
           computer science work has been in Android development while more
           recently branching into iOS development and React/React native (hence
           the website). I love what I do and I hope its obvious in my projects
