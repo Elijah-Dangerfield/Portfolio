@@ -25,13 +25,12 @@ const IndexPage = () => (
         <h2>About</h2>
         <p>
           Hi there! My name is Elijah Dangerfield. I am a computer scientist
-          with a passion for learning and creating. I am currently obtaining my
-          bachelors degree in computer science at Middle Tennessee State
-          University while getting a minor in mathematics and biology. The
-          majority of my computer science work has been in Android development
-          while more recently branching into iOS development and React/React
-          native (hence the website). I love what I do and I hope its obvious in
-          my projects below :)
+          with a passion for learning and creating. I have a bachelors degree in
+          computer science with a minor in mathematics. The majority of my
+          computer science work has been in Android development while more
+          recently branching into iOS development and React/React native (hence
+          the website). I love what I do and I hope its obvious in my projects
+          below :)
         </p>
       </div>
       <div className="Cards" id={"projects"}>
@@ -100,6 +99,13 @@ const IndexPage = () => (
       <div id={"experience"} className="ExperienceSection">
         <h2>Experience</h2>
         <ExperienceCell
+          image={require("../images/iheart-logo.jpg")}
+          company="iHeart Radio"
+          position="Android Developer"
+          time="2020 - Current"
+          details="At iHeart Radio my role is Associate Android developer. I work on a team of people contributing to updating and maintaining the flagship Android application in conjunction with other development teams. I have implemented multiple client facing features utilizing MVI architecture, kotlin, java and RX Java."
+        />
+        <ExperienceCell
           image={require("../images/takl-logo.png")}
           company="Takl"
           position="Mobile Developer"
@@ -110,7 +116,7 @@ const IndexPage = () => (
           image={require("../images/mtsu-logo.png")}
           company="Middle Tennessee State University"
           position="Mobile Developer"
-          time="2018 - Current"
+          time="2018 - 2020"
           details="At MTSU I develop for the Android and iOS platforms. I contribute to a team of 9 developer on maintaining and improving the MTSU mobile application for the use for the student body (30k +). I work on refactoring both the Android and iOS code bases to follow MVVM architecture and reactive programming using RX Swift and Live Data. "
         />
         <ExperienceCell
