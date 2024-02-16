@@ -11,6 +11,7 @@ import Cell from "../components/Cell"
 import styled from "styled-components"
 import ExperienceCell from "../components/ExperienceCell"
 import Contact from "../components/Contact"
+import githubLogo from "../images/github_logo.svg";
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +19,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Elijah Dangerfield</h1>
         <p>Enthusiastic mobile developer and computer scientist</p>
-        {/* <img src={require("../images/stay_home_eli.png")} width="350px"></img> */}
+         <img src={require('../images/eli-logo.png').default} width="350px"></img>
         <Wave />
       </div>
       <div className="AboutSection" id={"about"}>
@@ -37,90 +38,89 @@ const IndexPage = () => (
         <h2>Projects</h2>
         <div className="CardGroup">
           <Card
-            title="Spyfall"
+            title="Odd One Out"
             link="https://github.com/Elijah-Dangerfield/Spyfall"
             text="Android Application"
-            image={require("../images/wallpaper.jpg")}
+            image={require("../images/wallpaper.jpg").default}
           />
+
+          <Card
+            title="Notable"
+            link="https://github.com/Elijah-Dangerfield/Notable"
+            text="First Dive into Android Compose"
+            image={require("../images/wallpaper.jpg").default}
+          />
+
           <Card
             title="Would You Rather"
             link="https://github.com/Elijah-Dangerfield/Would-You-Rather/blob/master/README.md"
             text="Android & iOS Application"
-            image={require("../images/wallpaper2.jpg")}
+            image={require("../images/wallpaper2.jpg").default}
           />
-          <Card
-            title="A Star Search"
-            text="AI Project"
-            link="https://github.com/Elijah-Dangerfield/A-star-search"
-            image={require("../images/wallpaper3.jpg")}
-          />
-          <Card
-            title="Decision Tree"
-            text="ML Project"
-            link="https://github.com/Elijah-Dangerfield/Decision-Tree"
-            image={require("../images/wallpaper4.jpg")}
-          />
+        
 
           <Card
-            title="Kind"
-            text="Collaborative Android Project"
-            link="https://github.com/Elijah-Dangerfield/Kind"
-            image={require("../images/wallpaper2.jpg")}
-          />
-          <Card
-            title="Barbras Book"
-            text="Android Project"
-            link="https://github.com/Elijah-Dangerfield/BarbrasBook"
-            image={require("../images/wallpaper2.jpg")}
-          />
-
-          <Card
-            title="SentimentAnalysis"
-            text="ML Project"
-            link="https://github.com/Elijah-Dangerfield/SentimentAnalysis"
-            image={require("../images/wallpaper.jpg")}
+            title="Trivia App"
+            text="Tiny Android Project for an Article Series"
+            link="https://github.com/Elijah-Dangerfield/TriviaApp"
+            image={require("../images/wallpaper3.jpg").default}
           />
 
           <Card
             title="Portfolio"
             text="React Project"
             link="https://github.com/Elijah-Dangerfield/Portfolio"
-            image={require("../images/wallpaper4.jpg")}
+            image={require("../images/wallpaper4.jpg").default}
           />
 
-          <Card
-            title="Git Job"
-            text="Android Project"
-            link="https://github.com/Elijah-Dangerfield/GitJob"
-            image={require("../images/wallpaper4.jpg")}
-          />
         </div>
       </div>
       <div id={"experience"} className="ExperienceSection">
         <h2>Experience</h2>
+
         <ExperienceCell
-          image={require("../images/iheart-logo.jpg")}
+          image={require("../images/Hinge_Logo.png").default}
+          company="Hinge"
+          position="Senior Android Developer"
+          time="2023 - Current"
+          details="At Hinge my role is Senior Android Developer. I work with a team of awesome people. I'll update this section when there is more to say :)"
+        />
+
+        <ExperienceCell
+          image={require("../images/Disney_Logo.png").default}
+          company="Disney+ & Hulu"
+          position="Senior Android Developer"
+          time="2021 - 2023"
+          details="At Disney I Helped lead and advise the introduction of Coroutines and Flow in the Disney code base as part of a council of developers responsible for technological advancements.
+          I had the opportunity to lead the Hulu Android account unification project allowing users to share credentials across Disney streaming services while collaborating and advising other developers. 
+          I also contributed to the maintenance and enhancement of the Hulu, Disney+, and Star+ Android applications in a unified code base leveraging technologies including Kotlin, Java, Coroutines, Flow, RxJava, Hilt, MVI, Feature Flagging, Google Billing, Groupie and more. 
+          Lastly I collaborated on the initiative to modularize and unify the code bases of Hulu, Disney+, and Star+. 
+          "
+        />
+
+        <ExperienceCell
+          image={require("../images/iheart-logo.jpg").default}
           company="iHeart Radio"
           position="Android Developer"
-          time="2020 - Current"
+          time="2020 - 2021"
           details="At iHeart Radio my role is Associate Android developer. I work on a team of people contributing to updating and maintaining the flagship Android application in conjunction with other development teams. I have implemented multiple client facing features utilizing MVI architecture, kotlin, java and RX Java."
         />
         <ExperienceCell
-          image={require("../images/takl-logo.png")}
+          image={require("../images/takl-logo.png").default}
           company="Takl"
           position="Mobile Developer"
           time="2019 - 2020"
           details="At Takl Home services my primary role was Android development. I contributed to maintaining and updating the Takl application to a base of over 250k users. I have created multiple client facing features utilizing Kotlin, Java and reactive programming with RX Java. Additionally I contributed to the React Takl+ web app creating multiple client facing feactures on a scrum workflow using Typescript. "
         />
         <ExperienceCell
-          image={require("../images/mtsu-logo.png")}
+          image={require("../images/mtsu-logo.png").default}
           company="Middle Tennessee State University"
           position="Mobile Developer"
           time="2018 - 2020"
           details="At MTSU I develop for the Android and iOS platforms. I contribute to a team of 9 developer on maintaining and improving the MTSU mobile application for the use for the student body (30k +). I work on refactoring both the Android and iOS code bases to follow MVVM architecture and reactive programming using RX Swift and Live Data. "
         />
         <ExperienceCell
-          image={require("../images/ubs-logo.png")}
+          image={require("../images/ubs-logo.png").default}
           company="UBS Financial"
           position="IT Intern"
           time="Summer 2019"
@@ -132,17 +132,17 @@ const IndexPage = () => (
         <h2>Contact</h2>
         <ContactSection>
           <Contact
-            logo={require("../images/logo-github2.png")}
+            logo={require("../images/logo-github2.png").default}
             link="https://github.com/Elijah-Dangerfield"
             title="Github"
           />
           <Contact
-            logo={require("../images/logo-linkedin.png")}
+            logo={require("../images/logo-linkedin.png").default}
             link="https://www.linkedin.com/in/elijahdangerfield/"
             title="LinkedIn"
           />
           <Contact
-            logo={require("../images/logo-email.png")}
+            logo={require("../images/logo-email.png").default}
             link="mailto: elijahdangerfield111@gmail.com"
             title="Email"
           />

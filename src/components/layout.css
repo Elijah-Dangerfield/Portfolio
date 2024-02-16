@@ -22,7 +22,7 @@ a {
 }
 
 .Hero {
-  background: url("../images/eli-pic.jpg");
+  background: url("../images/eli-pic.png");
   position: relative;
   height: 960px;
   background-size: cover;
